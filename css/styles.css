@@ -1,3 +1,6 @@
+body {font-family: Arial, Helvetica, sans-serif;
+    background-color: aquamarine;
+}
 /* Full-width input fields */
 input[type=text], input[type=password] {
     width: 100%;
@@ -14,7 +17,7 @@ input[type=text], input[type=password] {
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
-    border: none;
+    border-radius: 12px;
     cursor: pointer;
     width: 100%;
   }
@@ -37,8 +40,8 @@ input[type=text], input[type=password] {
     position: relative;
   }
   
-  img.avatar {
-    width: 40%;
+  .avatar {
+    width: 8%;
     border-radius: 50%;
   }
   
